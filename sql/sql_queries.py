@@ -21,3 +21,12 @@ def get_just_dialogue (name):
 
     df = pd.read_sql_query(query, engine)
     return df.to_dict(orient="records")
+
+def get_characters ():
+    query = f"""SELECT speaker, COUNT(*) AS total_lines
+    FROM the_office_lines 
+    GROUP BY speaker
+    ORDER BY total_lines DESC"""
+
+    df = pd.read_sql_query(query, engine)
+    return df.to_dict(orient="records")
