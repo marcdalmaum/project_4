@@ -8,7 +8,7 @@ The main objective of this project is to create an API with a database of The Of
 
 ## ACQUISITION
 
-To perform the analysis, a CSV with the dialogues of The Office series was obtained from Kaggle [Kaggle](https://www.kaggle.com/datasets/fabriziocominetti/the-office-lines).
+To perform the analysis, a CSV with the dialogues of The Office series was obtained from [Kaggle](https://www.kaggle.com/datasets/fabriziocominetti/the-office-lines).
 
 ## CLEANING
 
