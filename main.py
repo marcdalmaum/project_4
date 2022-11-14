@@ -61,7 +61,7 @@ def sa_from_character (name):
 
 
 # POST:
-@app.route("/insertrow", methods=["POST"])
+@app.route("/post", methods=["POST"])
 def try_post ():
 
     my_params = request.args
